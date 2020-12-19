@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#006400"
+    tools:context=".PoupancaActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFD700"
+        android:text="Valor Mensal Depositado" />
+
+    <EditText
+        android:id="@+id/txtInvestimentoPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFD700"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFD700"
+        android:text="Taxa de Juros (Mensal)" />
+
+    <EditText
+        android:id="@+id/txtJurosPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFD700"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFD700"
+        android:text="Período (Meses)" />
+
+    <EditText
+        android:id="@+id/txtMesesPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFD700"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalcularPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textColor="#000000"
+        app:backgroundTint="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/txtResultadoPoupanca"
+        android:layout_width="match_parent"
+        android:textColor="#FFD700"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

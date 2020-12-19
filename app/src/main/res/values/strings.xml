@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculos de Investimento</string>
+    <string name="tela_tesouro">Tesouro SELIC</string>
+    <string name="tela_poupanca">Poupanca</string>
+</resources>
